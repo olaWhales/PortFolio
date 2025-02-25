@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiFillInstagram,
+  AiFillLinkedin,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -13,7 +15,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Ojo David Ayodeji</h3>
+          <h3>Designed and Developed by Ajadi Taoreed Olawale</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} OD</h3>
@@ -22,7 +24,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/davidojo1144"
+                href="https://github.com/olaWhales"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -32,7 +34,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/david-ojo-ba1b7b2a7"
+                href="http://www.linkedin.com/in/taoreed-olawale-3410b71b1"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -42,12 +44,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/optimizedave"
+                href="https://www.instagram.com/holar_whales/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+             <li className="social-icons">
+              <a
+                href="https://www.facebook.com/taoreed.olawale"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillFacebook />
               </a>
             </li>
           </ul>

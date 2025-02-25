@@ -8,27 +8,25 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ajadi Taoreed Olawale </span>
-            from <span className="purple"> Lagos, Nigeria.</span>
-            <br />
-            I am a software Engineer that Graduated from Semicolon.
-            <br />
-            I have completed my BSE in Biology from the University of Lagos.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
+         <p style={{ textAlign: "justify" }}>
+  Hi Everyone, I am <span className="purple">Ajadi Taoreed Olawale </span>
+  from <span className="purple">Lagos, Nigeria.</span>
+  <br />
+  My journey started in the field of Biology, where I earned my degree from the University of Lagos. However, my passion for problem-solving and innovation led me to transition into the tech industry.
+  <br />
+  I pursued software engineering at Semicolon, where I honed my skills in building scalable and efficient applications.
+  <br />
+  <br />
+  Beyond coding, I enjoy engaging in other activities that fuel my creativity and curiosity!
+</p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Singing
-            </li>
+            </li> 
             <li className="about-activity">
               <ImPointRight /> Sport
             </li>
@@ -42,7 +40,7 @@ function AboutCard() {
           </p>
           <footer className="blockquote-footer">@whales</footer>
           <button style={{padding: "10px 20px", background: "purple", color: "white", border: "none", borderRadius: "5px", cursor: "pointer"}}>
-            <a style={{color: "white"}} href="https://drive.google.com/file/d/1TC3QO2Bq0G7JTUZ2aDnrDn_yKJogOwSE/view?usp=drivesdk" target="_blank">View Resume</a>
+            <a style={{color: "white"}} href="https://docs.google.com/document/d/1dEqSWD-BzVKjc-KEWkEksdswycMW1JVZq2UZJIuhYBg/edit?usp=sharing" target="_blank">View Resume</a>
           </button>
         </blockquote>
       </Card.Body>

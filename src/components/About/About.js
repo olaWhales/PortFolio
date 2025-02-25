@@ -21,7 +21,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I AM</strong>
+              My Journey into <strong className="purple">Tech</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -36,7 +36,8 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
+          <p>Here are some of the key technologies I specialize in as a backend developer with frontend experience.
+          </p>
         <Techstack />
 
         <h1 className="project-heading">

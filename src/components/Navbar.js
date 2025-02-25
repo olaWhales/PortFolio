@@ -82,7 +82,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://vercel.com/davids-projects-0d6575e8"
                 target="_blank"
@@ -90,11 +90,11 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/davidojo1144/Port_Folio"
+                href="https://github.com/olaWhales/PortFolio.git"
                 target="_blank"
                 className="fork-btn-inner"
               >

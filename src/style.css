@@ -741,3 +741,14 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* .myAvtar{
+  border-radius: 100px !important;
+} */
+ .myAvtar img {
+   width: 250px;
+   /* Adjust size as needed */
+   height: 300px;
+   /* Ensure width and height are equal */
+   border-radius: 50%;
+   object-fit: cover;
+ }

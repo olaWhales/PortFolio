@@ -21,12 +21,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={real}
+              imgPath={E_Commerce}
               isBlog={false}
-              title="Real Estate Project"
-              description="Check out my latest real estate website, showcasing stunning properties and user-friendly features that make finding your dream home an enjoyable experience!"
-              ghLink="https://github.com/davidojo1144/MyRealEstateWebsiteProject"
-              demoLink="https://my-real-estate-website-project.vercel.app/"
+              title="Fashion E-Commerce Project"
+              description="A fully functional real estate web application designed to provide seamless property listings and user interactions. 
+              This project showcases my expertise in backend development, incorporating Spring Security and JWT for authentication, ensuring secure user management. 
+              Additionally, I have implemented a complete backend for an e-commerce system with robust API integrations. 
+              The frontend development is in progress, with the homepage completed and seller dashboard APIs fully integrated. 
+              Explore my GitHub repository for the backend implementation."
+              ghLink="https://github.com/olaWhales/whales_ecommerce.git"
+              // demoLink=""
             />
           </Col>
 
@@ -34,14 +38,17 @@ function Projects() {
             <ProjectCard
               imgPath={Art}
               isBlog={false}
-              title="Art Work Sale System"
-              description="My Art Work Sale System build with React.js and Tailwind Css, I just launched my new art sales website, designed to connect artists with collectors, featuring a beautiful, intuitive layout that makes browsing and purchasing artwork a truly enjoyable experience."
+              title="HiBin Smart Waste Bin Application"
+              description="HiBin is an innovative smart waste bin application that integrates hardware with software to enhance waste management efficiency. 
+              This is a collaborative project involving backend, frontend, and hardware development, all actively in progress. 
+              The system is designed to optimize waste collection and disposal through smart technology. 
+              Explore the GitHub repository for backend implementation."
               ghLink="https://github.com/davidojo1144/Art-Work-Sale-System"
-              demoLink="https://art-work-sale-system.vercel.app/"
+              // demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={E_Commerce}
               isBlog={false}
@@ -49,9 +56,9 @@ function Projects() {
               description="I just finished building my e-commerce website, and I’m really excited about how it turned out! It’s designed to make shopping easy and fun, with a sleek layout, user-friendly navigation, and secure checkout, all while showcasing some amazing products."
               demoLink="https://my-e-commerce-project-phi.vercel.app/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={spotify}
               isBlog={false}
@@ -60,7 +67,7 @@ function Projects() {
               ghLink="https://github.com/davidojo1144/My-Spotify-Project"
               demoLink="https://my-spotify-project-ten.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
