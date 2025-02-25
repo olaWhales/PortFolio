@@ -43,7 +43,7 @@ function Projects() {
               This is a collaborative project involving backend, frontend, and hardware development, all actively in progress. 
               The system is designed to optimize waste collection and disposal through smart technology. 
               Explore the GitHub repository for backend implementation."
-              ghLink="https://github.com/davidojo1144/Art-Work-Sale-System"
+              ghLink="https://github.com/johdanike/HiBin_Backend.git"
               // demoLink=""
             />
           </Col>
