@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import spotify from "../../Assets/Projects/spotify.png";
 import E_Commerce from "../../Assets/Projects/e-commerce.png";
 import real from "../../Assets/Projects/realestate.png";
-import Art from "../../Assets/Projects/art.png";
+import Art from "../../Assets/Projects/wastebin.png";
 
 function Projects() {
   return (
